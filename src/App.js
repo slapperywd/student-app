@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button } from 'reactstrap';
 import HeroesList from './components/HeroesList';
 import Heroes from './mockdata/Heroes';
+import FileUpload from './components/FIleUpload';
 
 class App extends Component {
   constructor(props) {
@@ -20,6 +21,7 @@ class App extends Component {
     
     return (
       <div className="App">
+        <FileUpload></FileUpload>
         <Button onClick={() => this.showMessage(this.state.message)} color="danger">danger</Button>
         <HeroesList heroes = {Heroes} ></HeroesList>
       </div>

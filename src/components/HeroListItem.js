@@ -4,10 +4,11 @@ import {
     CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 
+
 class HeroesListItem extends Component {
     render() {
         return (
-            <div class="hero col-sm-4">
+            <div className="hero col-sm-4">
                 <Card>
                     <CardImg src='https://assets.imgix.net/hp/snowshoe.jpg?auto=compress&w=318&h=180&fit=crop' alt="Card image cap" />
                     <CardBody>
